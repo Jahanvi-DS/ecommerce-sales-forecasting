@@ -1,0 +1,6 @@
+%%writefile requirements.txt
+streamlit
+pandas
+matplotlib
+statsmodels
+prophet
