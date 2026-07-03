@@ -34,11 +34,3 @@ An end-to-end time series forecasting web application that compares traditional 
 
 ---
 
-## ⚡ Setup and Installation
-
-To run this project locally, follow these simple steps:
-
-1. *Clone the repository:*
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/ecommerce-sales-forecasting.git](https://github.com/YOUR_GITHUB_USERNAME/ecommerce-sales-forecasting.git)
-   cd ecommerce-sales-forecasting
