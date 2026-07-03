@@ -44,7 +44,7 @@ df_prophet['y'] = df['Sales']
 model_prophet = Prophet()
 model_prophet.fit(df_prophet)
 
-future_dates = model_prophet.make_future_dataframe(periods=months_to_forecast, freq='M')
+future_dates = model_prophet.make_future_dataframe(periods=months_to_forecast, freq='MS')
 forecast_prophet = model_prophet.predict(future_dates)
 prophet_future = forecast_prophet.iloc[-months_to_forecast:]
 
